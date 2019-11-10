@@ -1,6 +1,6 @@
 {
   "name": "transition-menus",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Popup transition menu",
   "types": "lib/index.d.ts",
   "author": "Dainon",

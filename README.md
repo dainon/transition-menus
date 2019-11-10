@@ -25,6 +25,27 @@ yarn add transition-menus
 
 Then use it in your app:
 
+index.css
+
+```css
+.circle {
+  height: 50px;
+  width: 50px;
+  background-color: #bbb;
+  border-radius: 50%;
+  border: solid 2px #aaaaaa;
+}
+
+.icon {
+  position: absolute;
+  margin: auto;
+  left: 50%;
+  top: 50%;
+  font-size: 2em;
+  transform: translate(-50%, -50%);
+}
+```
+
 ```js
 import './index.css';
 
