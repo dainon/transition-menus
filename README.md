@@ -31,7 +31,6 @@ index.css
 .circle {
   height: 50px;
   width: 50px;
-  background-color: #bbb;
   border-radius: 50%;
   border: solid 2px #aaaaaa;
 }
@@ -124,7 +123,7 @@ class Demo extends Component<DemoProps, DemoState> {
       <div>
         <h1>Bottom Popup</h1>
         <button onClick={() => this.toggleOpen()}>Toggle</button>
-        <BottomPopup open={this.state.open} gutter={40} margin={20} items={this.items} />
+        <BottomPopup open={this.state.open} gutter={40} items={this.items} />
       </div>
     );
   }
@@ -138,10 +137,38 @@ Common props you may want to specify include:
 - `open` - opens the control
 - `gutter` - spacing between the elements
 - `items` - list of JSX.Elements
+- `animationDuration` - (optional) duration of the ease animation
 
-[build-badge]: https://img.shields.io/travis/user/repo/master.png?style=flat-square
-[build]: https://travis-ci.org/user/repo
 [npm-badge]: https://img.shields.io/npm/v/npm-package.png?style=flat-square
-[npm]: https://www.npmjs.org/package/npm-package
-[coveralls-badge]: https://img.shields.io/coveralls/user/repo/master.png?style=flat-square
-[coveralls]: https://coveralls.io/github/user/repo
+[npm]: https://www.npmjs.org/package/transition-menus
+
+<p>
+  <a href="https://github.com/badges/shields/graphs/contributors" alt="Contributors">
+      <img src="https://img.shields.io/github/contributors/badges/shields" /></a>
+  <a href="#backers" alt="Backers on Open Collective">
+      <img src="https://img.shields.io/opencollective/backers/shields" /></a>
+  <a href="#sponsors" alt="Sponsors on Open Collective">
+      <img src="https://img.shields.io/opencollective/sponsors/shields" /></a>
+  <a href="https://github.com/badges/shields/pulse" alt="Activity">
+      <img src="https://img.shields.io/github/commit-activity/m/badges/shields" /></a>
+  <a href="https://circleci.com/gh/badges/shields/tree/master">
+      <img src="https://img.shields.io/circleci/project/github/badges/shields/master" alt="build status"></a>
+  <a href="https://circleci.com/gh/badges/daily-tests">
+      <img src="https://img.shields.io/circleci/project/github/badges/daily-tests?label=service%20tests"
+          alt="service-test status"></a>
+  <a href="https://coveralls.io/github/badges/shields">
+      <img src="https://img.shields.io/coveralls/github/badges/shields"
+          alt="coverage"></a>
+  <a href="https://lgtm.com/projects/g/badges/shields/alerts/">
+      <img src="https://img.shields.io/lgtm/alerts/g/badges/shields"
+          alt="Total alerts"/></a>
+  <a href="https://github.com/badges/shields/compare/gh-pages...master">
+      <img src="https://img.shields.io/github/commits-since/badges/shields/gh-pages?label=commits%20to%20be%20deployed"
+          alt="commits to be deployed"></a>
+  <a href="https://discord.gg/HjJCwm5">
+      <img src="https://img.shields.io/discord/308323056592486420?logo=discord"
+          alt="chat on Discord"></a>
+  <a href="https://twitter.com/intent/follow?screen_name=shields_io">
+      <img src="https://img.shields.io/twitter/follow/shields_io?style=social&logo=twitter"
+          alt="follow on Twitter"></a>
+</p>

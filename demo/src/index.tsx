@@ -74,10 +74,10 @@ class Demo extends Component<DemoProps, DemoState> {
   public render(): JSX.Element {
     console.log('STATE', this.state);
     return (
-      <div>
+      <div style={{ color: '#fff' }}>
         <h1>Bottom Popup</h1>
         <button onClick={() => this.toggleOpen()}>Toggle</button>
-        <BottomPopup open={this.state.open} gutter={40} margin={20} items={this.items} />
+        <BottomPopup open={this.state.open} gutter={40} items={this.items} />
       </div>
     );
   }

@@ -14,10 +14,8 @@ class Point {
 export interface BottomPopupProps {
   open: boolean;
   gutter: number;
-  margin: number;
   items: Array<JSX.Element>;
   animationDuration?: number;
-  key?: string;
 }
 
 interface BottomPopupState {
