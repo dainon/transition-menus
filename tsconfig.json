@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "declaration": true,
+    "outDir": "./lib",
+    "strict": true,
+    "lib": ["es2015", "es2016", "dom"],
+    "esModuleInterop": true,
+    "jsx": "react",
+    "sourceMap": true
+  },
+  "files": ["./src/index.ts"],
+  "include": ["src"],
+  "exclude": ["node_modules", "**/__tests__/*"]
+}

@@ -1,9 +1,4 @@
-import React, {Component} from 'react'
-
-export default class extends Component {
-  render() {
-    return <div>
-      <h2>Welcome to React components</h2>
-    </div>
-  }
-}
+"use strict";
+exports.__esModule = true;
+var BottomPopup_1 = require("./BottomPopup");
+exports.BottomPopup = BottomPopup_1["default"];
